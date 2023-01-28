@@ -13,8 +13,8 @@ export const Statistics = ({
       <StatisticsItem>Good: {good}</StatisticsItem>
       <StatisticsItem>Neutral: {neutral}</StatisticsItem>
       <StatisticsItem>Bad: {bad}</StatisticsItem>
-      <StatisticsItem>Total: {total()}</StatisticsItem>
-      <StatisticsItem>Positive: {positivePercentage()}%</StatisticsItem>
+      <StatisticsItem>Total: {total}</StatisticsItem>
+      <StatisticsItem>Positive: {positivePercentage}%</StatisticsItem>
     </ul>
   );
 };
@@ -23,6 +23,6 @@ Statistics.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
-  total: PropTypes.func.isRequired,
-  positivePercentage: PropTypes.func.isRequired,
+  total: PropTypes.number.isRequired,
+  positivePercentage: PropTypes.number.isRequired,
 };

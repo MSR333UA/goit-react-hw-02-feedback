@@ -6,7 +6,7 @@ export const SectionBox = styled.section`
 
   padding: 20px 60px;
   width: 300px;
-  /* background: linear-gradient(to right, #be93c5, #7bc6cc); */
+  background: linear-gradient(to right, #be93c5, #7bc6cc);
 
   :first-child {
     border-radius: 10px 10px 0px 0px;
